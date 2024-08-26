@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
+
+:root{
+    --blue:#001e8c;
+}
+
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    margin: 30px 70px;
+}
+
+h2 {
+    color: var(--blue);
+    margin-left: 70px;
+    font-size: 45px;
+}
+
+p{
+    margin-left: 70px;
+
+}
+
+form {
+    margin-left: 500px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#num {
+    border: 2px solid var(--blue);
+    border-radius: 30px;
+    height: 40px;
+    width: 300px ;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.forfait input {
+    border: 2px solid var(--blue);
+    border-radius: 30px;
+    height: 40px;
+    width: 300px ;
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+.tel {
+    padding-bottom: 35px;
+}
+
+button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+button:hover {
+    background-color: #64c832; /* Darker shade of blue on hover */
+}

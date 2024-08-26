@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
+
+:root{
+    --blue:#001e8c;
+}
+
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+header img {
+    margin-left: 90px ;
+}
+section img {
+    width: 100%;
+}
+h2 {
+    color: var(--blue);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input , select , option ,textarea {
+    font-size: 20px;
+    border: 1px solid var(--blue);
+    border-radius: 25px;
+    
+}
+.select-box select {
+    height: 48px;
+}
+.select-box {
+    display: inline-block;
+}
+input {
+    width: 418px;
+    height: 35px;
+    margin-bottom: 10px ;
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+
+form {
+    margin-left: 240px;
+}
+
+
+button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+button:hover {
+    background-color: #64c832; /* Darker shade of blue on hover */
+}

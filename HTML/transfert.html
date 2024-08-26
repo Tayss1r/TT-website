@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/transfert.css">
+    <title>Tunisie Telecom - Transfert</title>
+</head>
+<body>
+    <header>
+        <div><img src="../Images/logo.png" alt="logo"></div>
+    </header>
+    <section>
+        <h2>TRANSFERT</h2>
+        <p>Le service Ehdia Net vous permet de transfert du solde et d’internet. <br><br>
+
+            Merci de choisir l’opération à effectuer :</p>
+        <form action="">
+            <div class="tel">
+                    <label for="num"> <b>à partir du numéro :	</b></label>
+                    <input type="tel" id="num" pattern="9[0-9]{7}" placeholder="⁃⁃ ⁃⁃⁃ ⁃⁃⁃" required title="Il faut que le numéro commence par 9 et ait exactement 8 chiffres"><br>
+            </div>
+            <div class="tel-2">
+                    <label for="num"> <b>vers le numéro :	</b></label>
+                    <span class="s-tel-2"><input type="tel" id="num" pattern="9[0-9]{7}" placeholder="⁃⁃ ⁃⁃⁃ ⁃⁃⁃" required title="Il faut que le numéro commence par 9 et ait exactement 8 chiffres"><br></span>
+            </div>
+                <div class="solde">
+                    <label for="option">
+                        <input type="radio" id="option" name="ehdi">
+                        <b>transfert solde : </b>
+                        <span class="s-choisir">
+                            <select name="choisir" id="choisir">
+                                <option value="1 dt">1 dt</option>
+                                <option value="2 dt">2 dt</option>
+                                <option value="5 dt">5 dt</option>
+                                <option value="10 dt">10 dt</option>
+                            </select>
+                        </span>
+                    </label><br>
+                </div>
+                <div class="forfait">
+                    <label for="option-2" >
+                        <input type="radio" id="option-2" name="ehdi">
+                        <b> transfert internet :</b>
+                        <span class="s-choisir-2">
+                            <select name="choisir-2" id="choisir-2">
+                                <option value="1 dt">Navigui 440 MO (7j) à 2 dt</option>
+                                <option value="1 dt">Navigui 1,125 GO (30j) à 4.5 dt</option>
+                                <option value="2 dt">Navigui 2,2 GO (30j) à 10 dt</option>
+                                <option value="5 dt">Navigui 6 GO (30j) à 15 dt</option>
+                                <option value="10 dt">Navigui 10 GO (30j) à 20 dt</option>
+                                <option value="10 dt">Navigui 25 GO (30j) à 30 dt</option>
+                            </select>
+                        </span>
+                    </label><br>
+                </div>
+                
+                <button>Confirmer</button>
+                
+            
+        </form>
+                    
+    </section>
+</body>
+</html>
